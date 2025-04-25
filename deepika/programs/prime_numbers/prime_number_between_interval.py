@@ -14,5 +14,5 @@ def prime_number_or_not(num):
             print(f"{num} is a prime number")
 
 
-for i in range(start,end+1):
+for i in range(start, end + 1):
     prime_number_or_not(i)
