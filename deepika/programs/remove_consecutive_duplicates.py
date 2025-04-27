@@ -6,8 +6,5 @@ for i in range(0, len(digits) - 1):
     b = digits[i + 1]
     if a != b:
         list.append(b)
-# print(list)
 print("".join(list))
 
-# num = "".join(list)
-# print(type(num))
