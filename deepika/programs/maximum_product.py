@@ -1,0 +1,5 @@
+my_list = list(input("enter the values:"))
+my_list.sort()
+print(my_list)
+output = int(my_list[-1]) * int(my_list[-2])
+print(output)
